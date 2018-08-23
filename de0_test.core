@@ -21,13 +21,6 @@ depend =
 backend = icarus
 simulators = xsim
 
-[quartus]
-family = "Cyclone IV E"
-device = EP4CE22F17C6
-sdc_files = data/de0_nano.sdc
-tcl_files = data/pinmap.tcl
-            data/options.tcl
-
 [fileset rtl_files]
 files =
  rtl/verilog/clkgen.v
