@@ -18,7 +18,7 @@ depend =
  ::ompic:1.0
  ::timer:1.0
 
-backend = vivado
+backend = icarus
 simulators = xsim
 
 [quartus]
