@@ -1,6 +1,6 @@
 CAPI=1
 [main]
-name = de0_nano-multicore
+name = de0_test
 description = "Altera/Terasic de0 nano board OpenRISC multicore system"
 depend =
  ::adv_debug_sys:3.1.0
