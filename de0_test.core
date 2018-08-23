@@ -18,8 +18,8 @@ depend =
  ::ompic:1.0
  ::timer:1.0
 
-backend = quartus
-simulators = icarus
+backend = vivado
+simulators = xsim
 
 [quartus]
 family = "Cyclone IV E"
