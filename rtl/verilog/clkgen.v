@@ -84,6 +84,7 @@ wire   pll_lock;
 
 `ifndef SIM
 
+	/*
 pll pll0 
 (
 	.areset	(async_rst),
@@ -91,7 +92,9 @@ pll pll0
 	.c0	(sdram_clk_o),
 	.c1	(wb_clk_o),
 	.locked	(pll_lock)
-);
+);*/
+	assign sdram_clk_o = sys_clk_pad_i;
+	assign wb_clk_o = sys_clk_pad_i;
 
 `else
 
